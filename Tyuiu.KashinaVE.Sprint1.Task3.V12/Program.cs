@@ -1,6 +1,6 @@
-﻿using Tyuiu.KashinaVE.Sprint1.Task2.V7.Lib;
+﻿using Tyuiu.KashinaVE.Sprint1.Task3.V12.Lib;
 
-namespace Tyuiu.KashinaVE.Task2.V7
+namespace Tyuiu.KashinaVE.Sprint1.Task3.V12
 {
     class Program
     {
@@ -11,9 +11,9 @@ namespace Tyuiu.KashinaVE.Task2.V7
             Console.Title = "Спринт #1 | Выполнила: Кашина В. Е. | ИБКСб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #7                                                              *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнила: Кашина Валерия Евгеньевна | ИБКСб-26-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -24,18 +24,21 @@ namespace Tyuiu.KashinaVE.Task2.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x;
+            double lengthCathetus1, lengthCathetus2;
 
-            Console.WriteLine("Введите радиус круга");
-            x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Первый катет ");
+            lengthCathetus1 = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("***************************************************************************");
+            Console.Write("Второй катет ");
+            lengthCathetus2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Площадь круга = " + ds.CalculateSquareCircle(x));
-            Console.ReadLine();
+            Console.WriteLine("Площадь треугольника равна: " + ds.TriangleArea(lengthCathetus1, lengthCathetus2));
 
+            Console.ReadKey();
         }
     }
 }
