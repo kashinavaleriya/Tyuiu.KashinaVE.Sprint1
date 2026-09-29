@@ -11,7 +11,7 @@ namespace Tyuiu.KashinaVE.Task2.V7
             Console.Title = "Спринт #1 | Выполнила: Кашина В. Е. | ИБКСб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнила: Кашина Валерия Евгеньевна | ИБКСб-26-1                       *");
@@ -29,7 +29,7 @@ namespace Tyuiu.KashinaVE.Task2.V7
             Console.WriteLine("Введите радиус круга");
             x = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("***************************************************************************");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 

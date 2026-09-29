@@ -24,4 +24,9 @@
     <Project Path="Tyuiu.KashinaVE.Sprint1.Task4.V16.Test/Tyuiu.KashinaVE.Sprint1.Task4.V16.Test.csproj" Id="92e2b764-398e-4bed-8ee8-937401df16a4" />
     <Project Path="Tyuiu.KashinaVE.Sprint1.Task4.V16/Tyuiu.KashinaVE.Sprint1.Task4.V16.csproj" Id="5731687b-5720-43d6-9780-78ac4fd2afb7" />
   </Folder>
+  <Folder Name="/Task5/">
+    <Project Path="Tyuiu.KashinaVE.Sprint1.Task5.V7.Lib/Tyuiu.KashinaVE.Sprint1.Task5.V7.Lib.csproj" Id="01e70986-a971-4120-87de-81e85707f3a7" />
+    <Project Path="Tyuiu.KashinaVE.Sprint1.Task5.V7.Test/Tyuiu.KashinaVE.Sprint1.Task5.V7.Test.csproj" Id="b6c2d8ed-8328-4991-a0a5-183b1c69b5cd" />
+    <Project Path="Tyuiu.KashinaVE.Sprint1.Task5.V7/Tyuiu.KashinaVE.Sprint1.Task5.V7.csproj" Id="0190f4ce-8a16-4e0b-83de-cdbb42f3c624" />
+  </Folder>
 </Solution>
